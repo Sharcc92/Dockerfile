@@ -26,7 +26,11 @@ The Tutorial can also be found in [Tutorial].
     ```
     docker push yourhubusername/respositoryname
 9. Successful finished. Docker image can be publically downloaded by searching in [Dockerhub].
+
     
 [Tutorial]: https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html
 [Dockerhub]: https://hub.docker.com/
 
+Further useful commands:
+- Saving and loading images: `docker save soncreo > soncreo.tar`
+- Loading images: `docker load --input verse_gapminder.tar`

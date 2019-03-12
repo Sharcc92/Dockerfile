@@ -6,7 +6,7 @@ The Tutorial can also be found in [Tutorial].
 4. Choose a name (e.g. soncreo) and a description for your repository and click Create.
 5. Log into the Docker Hub from the command line 
     ```
-    docker login --username=yourhubusername -
+    docker login --username=yourhubusername
     ```
     Enter your password when prompted. Then you should get the message `Login Succeeded`.
 6. Save an existing docker image
@@ -15,7 +15,6 @@ The Tutorial can also be found in [Tutorial].
     and what you will see will be similar to
     
     ```
-
     REPOSITORY                    TAG                 IMAGE ID            CREATED             SIZE
     sharcc92/soncreo              latest              12cb16f7b0d3        15 minutes ago      88.1MB
 7. Tag your image (save with an new name in the form `yourhubusername/respositoryname:newtag`.

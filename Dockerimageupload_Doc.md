@@ -1,4 +1,4 @@
-# Getting an image to Docker Hub [Link]
+# Getting an image to Docker Hub [LTutorial]
 1. Imagine you made your own Docker image and would like to share it with the world you can sign up for an account on https://hub.docker.com/. After verifying your email you are ready to go and upload your first docker image.
 2. Log in on https://hub.docker.com/ (if you do not have an account create one)
 3. Click on Create Repository
@@ -15,18 +15,18 @@
     
     ```
 
-    REPOSITORY                                        TAG                 IMAGE ID            CREATED             SIZE
-    sharcc92/soncreov2                                latest              12cb16f7b0d3        15 minutes ago      88.1MB
+    REPOSITORY                    TAG                 IMAGE ID            CREATED             SIZE
+    sharcc92/soncreo              latest              12cb16f7b0d3        15 minutes ago      88.1MB
 7. Tag your image (save with an new name in the form `yourhubusername/respositoryname:newtag`.
     ```
-    docker tag bb38976d03cf yourhubusername/verse_gapminder:firsttry
+    docker tag 12cb16f7b0d3  yourhubusername/soncreo:newtag
     ```
-    The number must match the image ID and :newtag is the tag. In general, a good choice for a tag is something that will help you understand what this container should be used in conjunction with, or what it represents. If this container contains the analysis for a paper, consider using that paper’s DOI or journal-issued serial number; if it’s meant for use with a particular version of a code or data version control repo, that’s a good choice too - whatever will help you understand what this particular image is intended for.
+    The number must match the image ID and `:newtag` is the tag. In general, a good choice for a tag is something that will help you understand what this container should be used in conjunction with, or what it represents. If this container contains the analysis for a paper, consider using that paper’s DOI or journal-issued serial number; if it’s meant for use with a particular version of a code or data version control repo, that’s a good choice too - whatever will help you understand what this particular image is intended for.
 8. Push your image to the repository you created
     ```
     docker push yourhubusername/verse_gapminder
 9. Successful finished. Docker image can be publically downloaded by searching in [Dockerhub].
     
-[Link] https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html
-[Dockerhub] https://hub.docker.com/
+[Tutorial]: https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html
+[Dockerhub]: https://hub.docker.com/
 

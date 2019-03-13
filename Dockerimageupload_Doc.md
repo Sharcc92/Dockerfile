@@ -1,5 +1,5 @@
 # Getting an image to Docker Hub 
-The Tutorial can also be found in [Tutorial].
+The Tutorial can also be found in [here](https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html).
 1. Imagine you made your own Docker image and would like to share it with the world you can sign up for an account on https://hub.docker.com/. After verifying your email you are ready to go and upload your first docker image.
 2. Log in on https://hub.docker.com/ (if you do not have an account create one)
 3. Click on Create Repository
@@ -28,7 +28,6 @@ The Tutorial can also be found in [Tutorial].
 9. Successful finished. Docker image can be publically downloaded by searching in [Dockerhub].
 
     
-[Tutorial]: https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html
 [Dockerhub]: https://hub.docker.com/
 
 Further useful commands:
